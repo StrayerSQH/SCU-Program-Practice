@@ -1,0 +1,1 @@
+extern const float ExitButton_x, ExitButton_y;//ExitButtonµÄÎ»ÖÃ
