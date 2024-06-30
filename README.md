@@ -20,12 +20,35 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本项目使用了SFML库（Simple and Fast Multimedia Library）。SFML是一个跨平台的开源多媒体库，旨在简化游戏和图形应用程序的开发过程。它提供了丰富的功能和易于使用的接口，使开发者能够快速创建交互性强、图形效果出色的应用程序。SFML支持多种编程语言，包括C++、Python、Java和.NET等，使开发者能够根据自己的喜好和需求选择合适的编程语言进行开发。它提供了一系列模块，涵盖了图形、窗口、音频、网络和系统等方面的功能，为开发者提供了全面的工具集。通过SFML，开发者可以轻松创建窗口，并在窗口中绘制图形、文字和粒子等元素。SFML还提供了丰富的输入处理功能，包括键盘、鼠标和触摸屏等，使开发者能够方便地响应用户的交互操作。SFML的音频模块支持多种音频格式的播放和录制，开发者可以轻松处理音效和音乐。网络模块提供了简单易用的网络编程接口，使开发者能够创建基于TCP或UDP的网络应用程序。SFML的设计理念注重简洁和高效，它在底层使用了硬件加速和多线程技术，以提供出色的性能和响应速度。同时，SFML的文档和社区支持非常丰富，开发者可以从官方文档、示例代码和社区论坛中获取帮助和资源。<br>
 #### 2.2 界面初步搭建及部分功能测试（2024年6月30日）
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目初步实现了在调试运行程序中循环播放背景音乐、显示字体、显示按钮并根据按钮功能进行相应的事件相应。<br>
-![界面初步搭建及部分功能测试（2024年6月30日）效果图]()
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![界面初步搭建及部分功能测试（2024年6月30日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/20240630/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-06-30%20192953.png)<br>
 
 # Sichuan University Freshman Enrollment Simulator
 ## Project Assignment for Programming Practice Course, Class of 2023, School of Computer Science, Sichuan University
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome to the Sichuan University Freshman Enrollment Simulator! This project assignment is developed by students majoring in Computer Science and Technology from the Class of 2023 at the School of Computer Science, Sichuan University.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The simulator aims to help freshmen gain a better understanding of the campus environment and the enrollment process at Sichuan University. Through the simulator, freshmen can experience various scenarios and tasks before their enrollment, in order to better adapt to university life.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The simulator will continue to be updated with more modules to bring more gameplay. The current game is still under construction, and we welcome valuable suggestions from everyone!<br>
+Welcome to the Sichuan University Freshman Enrollment Simulator! 😄 This is a project assignment developed by students majoring in Computer Science and Technology at Sichuan University, Class of 2023, as part of the Programming Practice course.
+
+The simulator aims to help incoming freshmen better understand the campus environment and enrollment process at Sichuan University. Through the simulator, freshmen can experience various scenarios and tasks before enrollment, in order to better adapt to university life. In addition, this project provides some ideas for friends who are about to study computer-related subjects and need to engage in programming practice.
+
+The game is currently under construction, and we welcome valuable suggestions! The simulator will continue to be updated, incorporating more modules to bring more gameplay.
+
+### 1. Library Dependencies
+In this project, we have chosen to use the SFML (Simple and Fast Multimedia Library) as the primary technical framework. SFML is a cross-platform multimedia library that focuses on graphics rendering and user interaction, making it ideal for game development and graphics applications. By incorporating the SFML library, we have successfully implemented the following features:
+
+#### 1.1 Window Creation
+By using the sf::RenderWindow class provided by the SFML library, we created a window object. This window object is used to display the graphical interface of our application. We can set the size, title, and other properties of the window to meet the project requirements.
+
+#### 1.2 Event Handling
+SFML provides a powerful event handling mechanism, allowing us to listen for and handle various events that occur within the window. These events include window closure, key presses, mouse clicks, and other user interactions. By using SFML's event loop in the main loop, we can execute the corresponding logic based on different event types, such as closing the window, handling key input, or responding to mouse clicks.
+
+#### 1.3 Graphics Rendering
+SFML provides rich drawing capabilities, allowing us to draw various graphic elements within the window. By using SFML's drawing interface, we successfully rendered background images, buttons, and other user interface elements, creating a visually appealing application interface.
+
+Through the implementation of these features, our project is able to provide an interactive, visually appealing, and relatively simple graphical interface. It provides some ideas for friends who are about to study computer-related subjects and need to engage in programming practice! 😄
+
+### 2. Project Development Log
+#### 2.1 Environment Setup (June 29, 2024)
+For this project, we used the SFML (Simple and Fast Multimedia Library). SFML is a cross-platform open-source multimedia library designed to simplify the development process of games and graphics applications. It provides rich functionality and an easy-to-use interface, enabling developers to quickly create interactive and visually impressive applications. SFML supports multiple programming languages, including C++, Python, Java, and .NET, allowing developers to choose the appropriate programming language based on their preferences and needs. It provides a set of modules covering graphics, windowing, audio, networking, and system functionalities, offering developers a comprehensive toolkit. With SFML, developers can easily create windows and draw graphics, text, and particles within the windows. SFML also provides rich input handling capabilities, including keyboard, mouse, and touch screen, making it easy for developers to respond to user interactions. The audio module of SFML supports playback and recording of multiple audio formats, allowing developers to handle sound effects and music effortlessly. The network module provides a simple and user-friendly network programming interface, enabling developers to create network applications based on TCP or UDP. SFML is designed with a focus on simplicity and efficiency, utilizing hardware acceleration and multithreading techniques at the lower level to provide excellent performance and responsiveness. Additionally, SFML has extensive documentation and community support, where developers can find help and resources from official documentation, sample code, and community forums.
+
+#### 2.2 Initial Interface Construction and Partial Function Testing (June 30, 2024)
+The project has initially implemented the looping playback of background music, display of fonts, display of buttons, and event handling based on button functionality in the debugging and running program.
+![界面初步搭建及部分功能测试（2024年6月30日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/20240630/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-06-30%20192953.png)<br>
