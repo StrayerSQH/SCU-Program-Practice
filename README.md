@@ -20,7 +20,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本项目使用了SFML库（Simple and Fast Multimedia Library）。SFML是一个跨平台的开源多媒体库，旨在简化游戏和图形应用程序的开发过程。它提供了丰富的功能和易于使用的接口，使开发者能够快速创建交互性强、图形效果出色的应用程序。SFML支持多种编程语言，包括C++、Python、Java和.NET等，使开发者能够根据自己的喜好和需求选择合适的编程语言进行开发。它提供了一系列模块，涵盖了图形、窗口、音频、网络和系统等方面的功能，为开发者提供了全面的工具集。通过SFML，开发者可以轻松创建窗口，并在窗口中绘制图形、文字和粒子等元素。SFML还提供了丰富的输入处理功能，包括键盘、鼠标和触摸屏等，使开发者能够方便地响应用户的交互操作。SFML的音频模块支持多种音频格式的播放和录制，开发者可以轻松处理音效和音乐。网络模块提供了简单易用的网络编程接口，使开发者能够创建基于TCP或UDP的网络应用程序。SFML的设计理念注重简洁和高效，它在底层使用了硬件加速和多线程技术，以提供出色的性能和响应速度。同时，SFML的文档和社区支持非常丰富，开发者可以从官方文档、示例代码和社区论坛中获取帮助和资源。<br>
 #### 2.2 界面初步搭建及部分功能测试（2024年6月30日）
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目初步实现了在调试运行程序中循环播放背景音乐、显示字体、显示按钮并根据按钮功能进行相应的事件相应。<br>
-![界面初步搭建及部分功能测试（2024年6月30日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/20240630/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-06-30%20192953.png)<br>
+![界面初步搭建及部分功能测试（2024年6月30日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/Introduction/%E7%95%8C%E9%9D%A2%E5%88%9D%E6%AD%A5%E6%90%AD%E5%BB%BA%E5%8F%8A%E9%83%A8%E5%88%86%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95%EF%BC%882024%E5%B9%B46%E6%9C%8830%E6%97%A5%EF%BC%89.png)<br>
 
 # Sichuan University Freshman Enrollment Simulator
 ## Project Assignment for Programming Practice Course, Class of 2023, School of Computer Science, Sichuan University
@@ -51,4 +51,4 @@ For this project, we used the SFML (Simple and Fast Multimedia Library). SFML is
 
 #### 2.2 Initial Interface Construction and Partial Function Testing (June 30, 2024)
 The project has initially implemented the looping playback of background music, display of fonts, display of buttons, and event handling based on button functionality in the debugging and running program.
-![界面初步搭建及部分功能测试（2024年6月30日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/20240630/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-06-30%20192953.png)<br>
+![界面初步搭建及部分功能测试（2024年6月30日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/Introduction/%E7%95%8C%E9%9D%A2%E5%88%9D%E6%AD%A5%E6%90%AD%E5%BB%BA%E5%8F%8A%E9%83%A8%E5%88%86%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95%EF%BC%882024%E5%B9%B46%E6%9C%8830%E6%97%A5%EF%BC%89.png)<br>
