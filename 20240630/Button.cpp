@@ -4,30 +4,30 @@
 
 using namespace std;
 
-// ¹¹Ôìº¯Êı£¨ÔÚ´°¿ÚÏÔÊ¾µÄxÎ»ÖÃ£¬ÔÚ´°¿ÚÏÔÊ¾µÄyÎ»ÖÃ£¬°´Å¥¸ß¶È£¬°´Å¥¿í¶È£¬°´Å¥ÉÏÏÔÊ¾µÄÎÄ×Ö£¬°´Å¥µÄÄ¬ÈÏÍ¸Ã÷¶È128£©
+// æ„é€ å‡½æ•°ï¼ˆåœ¨çª—å£æ˜¾ç¤ºçš„xä½ç½®ï¼Œåœ¨çª—å£æ˜¾ç¤ºçš„yä½ç½®ï¼ŒæŒ‰é’®é«˜åº¦ï¼ŒæŒ‰é’®å®½åº¦ï¼ŒæŒ‰é’®ä¸Šæ˜¾ç¤ºçš„æ–‡å­—ï¼ŒæŒ‰é’®çš„é»˜è®¤é€æ˜åº¦128ï¼‰
 Button::Button(float window_x, float window_y, float width, float height, const std::string& text, sf::Uint8 alpha = 128)
 {
-    shape.setPosition(window_x, window_y);// ÉèÖÃÎ»ÖÃ
-    shape.setFillColor(sf::Color(128,  128, 128, alpha));// ÉèÖÃÑÕÉ«
+    shape.setPosition(window_x, window_y);// è®¾ç½®ä½ç½®
+    shape.setFillColor(sf::Color(128,  128, 128, alpha));// è®¾ç½®é¢œè‰²
 
-    //if (!font.loadFromFile("arial.ttf"))  // ÇëÈ·±£ÄúÓĞÒ»¸öÃûÎª"arial.ttf"µÄ×ÖÌåÎÄ¼ş
-    //{
-    //    cout << "³ÌĞò¼ÓÔØÄ¬ÈÏ×ÖÌåÊ§°Ü£¬Çë¼ì²é×ÖÌåÊÇ·ñ´æÔÚ£¡£¡£¡" << endl;
-    //    // sleep(3);
-    //    // return -1;
-    //}
+    if (!font.loadFromFile("arial.ttf"))  // è¯·ç¡®ä¿æ‚¨æœ‰ä¸€ä¸ªåä¸º"arial.ttf"çš„å­—ä½“æ–‡ä»¶
+    {
+        cout << "ç¨‹åºåŠ è½½é»˜è®¤å­—ä½“å¤±è´¥ï¼Œè¯·æ£€æŸ¥å­—ä½“æ˜¯å¦å­˜åœ¨ï¼ï¼ï¼" << endl;
+        // sleep(3);
+        // return -1;
+    }
 
-    //label.setFont(font);
-    //label.setString(text);
-    //label.setCharacterSize(24);  // ÉèÖÃ×ÖÌå´óĞ¡
-    //label.setFillColor(sf::Color::White);  // ÉèÖÃ×ÖÌåÑÕÉ«
-    //label.setPosition(window_x, window_y);  // ÉèÖÃÎÄ±¾µÄÎ»ÖÃ
+    label.setFont(font);
+    label.setString(text);
+    label.setCharacterSize(24);  // è®¾ç½®å­—ä½“å¤§å°
+    label.setFillColor(sf::Color::White);  // è®¾ç½®å­—ä½“é¢œè‰²
+    label.setPosition(window_x, window_y);  // è®¾ç½®æ–‡æœ¬çš„ä½ç½®
 }
 
 void Button::DrawButton(sf::RenderWindow& window)
 {
     window.draw(shape);
-    /*window.draw(label);*/
+    window.draw(label);
     window.display();
 }
 
