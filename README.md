@@ -22,6 +22,12 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目初步实现了在调试运行程序中循环播放背景音乐、显示字体、显示按钮并根据按钮功能进行相应的事件相应。<br>
 ![界面初步搭建及部分功能测试（2024年6月30日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/Introduction/%E7%95%8C%E9%9D%A2%E5%88%9D%E6%AD%A5%E6%90%AD%E5%BB%BA%E5%8F%8A%E9%83%A8%E5%88%86%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95%EF%BC%882024%E5%B9%B46%E6%9C%8830%E6%97%A5%EF%BC%89.png)<br>
 
+### 3.效果展示
+
+### 4.声明  Statement 😠
+本项目仅代表参与者个人的能力和水平，不代表与之相关的任何其他方面或实体<br>
+This project represents solely the individual skills and abilities of the participants, and does not represent any other potentially related aspects or entities<br>
+
 # Sichuan University Freshman Enrollment Simulator
 ## Project Assignment for Programming Practice Course, Class of 2023, School of Computer Science, Sichuan University
 
@@ -52,3 +58,9 @@ For this project, we used the SFML (Simple and Fast Multimedia Library). SFML is
 #### 2.2 Initial Interface Construction and Partial Function Testing (June 30, 2024)
 The project has initially implemented the looping playback of background music, display of fonts, display of buttons, and event handling based on button functionality in the debugging and running program.
 ![界面初步搭建及部分功能测试（2024年6月30日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/Introduction/%E7%95%8C%E9%9D%A2%E5%88%9D%E6%AD%A5%E6%90%AD%E5%BB%BA%E5%8F%8A%E9%83%A8%E5%88%86%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95%EF%BC%882024%E5%B9%B46%E6%9C%8830%E6%97%A5%EF%BC%89.png)<br>
+
+### 3.Presentation of Results
+
+### 4.声明  Statement 😠
+本项目仅代表参与者个人的能力和水平，不代表与之相关的任何其他方面或实体<br>
+This project represents solely the individual skills and abilities of the participants, and does not represent any other potentially related aspects or entities<br>
