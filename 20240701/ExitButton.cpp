@@ -1,0 +1,85 @@
+#include "ExitButton.h"
+#include <iostream>
+#include "ConfirmExitButtonOne.h"
+#include "CancelExitButton.h"
+
+float ExitButton::ExitButtonWidth = 300;
+float ExitButton::ExitButtonHeight = 150;
+
+ExitButton::ExitButton(float x, float y) : Button(x, y, ExitButtonWidth, ExitButtonHeight, "Exit<<", 0), isClicked(false) {}
+
+void ExitButton::DrawButton(sf::RenderWindow& window) 
+{
+    Button::DrawButton(window);
+
+    if (isClicked) {
+        ExitProgram(window);
+    }
+}
+
+int ExitButton::ExitProgram(sf::RenderWindow& window) 
+{
+    ConfirmExitButtonOne confirmExitButtonOne(
+        window.getSize().x / 2 - ConfirmExitButtonOne::ConfirmExitButtonOneWidth / 2, 
+        window.getSize().y / 2 - ConfirmExitButtonOne::ConfirmExitButtonOneHeight,
+        "Confirm");
+
+    CancelExitButton cancelExitButton(
+        window.getSize().x / 2 - ConfirmExitButtonOne::ConfirmExitButtonOneWidth / 2,
+        window.getSize().y / 2 + ConfirmExitButtonOne::ConfirmExitButtonOneHeight
+    );
+
+    int end = 1;
+    while (window.isOpen())
+    {
+        confirmExitButtonOne.confirm = false;
+        cancelExitButton.cancel = false;
+        sf::Event Event;
+        while (window.pollEvent(Event) && end)
+        {
+            if (Event.type == sf::Event::Closed)
+            {
+                window.close();
+            }
+            else if (Event.type == sf::Event::MouseButtonPressed)
+            {
+                if (Event.mouseButton.button == sf::Mouse::Left)
+                {
+                    if (confirmExitButtonOne.CheckHover(window.mapPixelToCoords(sf::Vector2i(Event.mouseButton.x, Event.mouseButton.y))))
+                    {
+                        confirmExitButtonOne.confirm = true;
+                        confirmExitButtonOne.ExitProgram(window, confirmExitButtonOne.confirm);
+                    }
+                    else {
+                        confirmExitButtonOne.ExitProgram(window, confirmExitButtonOne.confirm);
+                    }
+                }
+            }
+            else if (Event.type == sf::Event::MouseButtonPressed)
+            {
+                if (Event.mouseButton.button == sf::Mouse::Left)
+                {
+                    if (cancelExitButton.CheckHover(window.mapPixelToCoords(sf::Vector2i(Event.mouseButton.x, Event.mouseButton.y))))
+                    {
+                        break;
+                        return false;
+                    }
+                }
+            }
+
+            window.clear();
+
+            sf::Vector2i mousePos = sf::Mouse::getPosition(window);
+            sf::Vector2f mousePosF(static_cast<float>(mousePos.x), static_cast<float>(mousePos.y));
+            confirmExitButtonOne.SetHovered(confirmExitButtonOne.CheckHover(mousePosF));
+            cancelExitButton.SetHovered(cancelExitButton.CheckHover(mousePosF));
+
+            confirmExitButtonOne.Button::DrawButton(window);
+            cancelExitButton.Button::DrawButton(window);
+
+            window.display();
+        }
+    }
+
+    return 0;
+}
