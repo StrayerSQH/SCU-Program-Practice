@@ -22,7 +22,10 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目在整体架构上初步实现了在调试运行程序中循环播放背景音乐、显示字体、显示按钮并根据按钮功能进行相应的事件相应。但是如果点击了“Exit"按钮的话程序会直接退出终止，没有”给人反悔“的机会。程序非常不安全。除此之外，互动效果非常差，字体的大小是固定的，而且没有触发音效。<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目在具体的游戏内容中也有非常大的突破。我们初步完成了简单的地图创建——采用二维数组创建、遍历符号识别像素块应该显示内容的方式。正在尝试将人物的移动与按键相结合起来。<br>
 ![界面初步搭建及部分功能测试（2024年6月30日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/Introduction/%E7%95%8C%E9%9D%A2%E5%88%9D%E6%AD%A5%E6%90%AD%E5%BB%BA%E5%8F%8A%E9%83%A8%E5%88%86%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95%EF%BC%882024%E5%B9%B46%E6%9C%8830%E6%97%A5%EF%BC%89.png)<br>
-
+### 2.3 界面基本完成搭建、游戏部分可以基本实现操控角色移动（2024年7月1日）
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目整体框架基本建立完全，实现了点击"Exit"按钮弹出再次确认按钮的“安全机制”。除此之外，将鼠标放置在相应的按钮上字体会进行放大。若进一步点击按钮（目前仅限于Exit、Exit the Game和Back to the Main Menu三个按钮上，因为目前只有这三个按钮有意义），会同步发出与按钮相对应的触发音乐效果。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;具体的游戏角色操控部分也有了非常大的进展，成功实现了游戏角色根据键盘的操纵实现上下左右移动。但是现在的技术还不是很成熟，会在移动的过程中有一点小瑕疵————一旦移动后就只有在碰到限制区域才能停下。<br>
+相信我们一定能够在未来的几天解决这些问题完成编程实战训练!!!😄<br>
 ### 3.效果展示
 
 ### 4.声明  Statement 😠
@@ -60,7 +63,10 @@ For this project, we used the SFML (Simple and Fast Multimedia Library). SFML is
 The project has initially implemented the looping playback of background music, display of fonts, display of buttons, and event handling based on button functionality in the debugging and running program.However, if you click the "Exit" button, the program will be terminated directly, and there is no chance of "reversing". The program is very unsafe. Other than that, the interaction is very poor, the font size is fixed, and there are no trigger sound effects.<br>
 The project also has a very big breakthrough in specific game content. We've done a simple map creation – using a two-dimensional array to create a two-dimensional array and iterate through symbols to identify what the pixel blocks should display. An attempt is being made to combine the movement of the character with the keys.<br>
 ![界面初步搭建及部分功能测试（2024年6月30日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/Introduction/%E7%95%8C%E9%9D%A2%E5%88%9D%E6%AD%A5%E6%90%AD%E5%BB%BA%E5%8F%8A%E9%83%A8%E5%88%86%E5%8A%9F%E8%83%BD%E6%B5%8B%E8%AF%95%EF%BC%882024%E5%B9%B46%E6%9C%8830%E6%97%A5%EF%BC%89.png)<br>
-
+### 2.3 The interface is basically completed, and the game part can basically realize the control of character movement (July 1, 2024)
+The overall framework of the project is basically established, and the "security mechanism" of clicking the "Exit" button to pop up the reconfirmation button is realized. In addition to this, hovering the mouse over the corresponding button will enlarge the font. If you click the button further (currently limited to the Exit, Exit the Game, and Back to the Main Menu, as these three buttons are the only ones that make sense at the moment), the corresponding trigger music effect will be emitted simultaneously. <br>
+The specific game character control part has also made great progress, and the game character has been successfully moved up and down, left and right according to the control of the keyboard. However, the current technology is not very mature, and there will be a little flaw in the process of moving———— once it moves, it can only stop when it hits a restricted area. <br>
+We believe that we will be able to solve these problems in the next few days and complete the programming training!! 😄<br>
 ### 3.Presentation of Results
 
 ### 4.声明  Statement 😠
