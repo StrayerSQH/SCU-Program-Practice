@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// ¹¹Ôìº¯Êı£¨ÔÚ´°¿ÚÏÔÊ¾µÄxÎ»ÖÃ£¬ÔÚ´°¿ÚÏÔÊ¾µÄyÎ»ÖÃ£¬°´Å¥¸ß¶È£¬°´Å¥¿í¶È£¬°´Å¥ÉÏÏÔÊ¾µÄÎÄ×Ö£¬°´Å¥µÄÄ¬ÈÏÍ¸Ã÷¶È128£©
+// æ„é€ å‡½æ•°ï¼ˆåœ¨çª—å£æ˜¾ç¤ºçš„xä½ç½®ï¼Œåœ¨çª—å£æ˜¾ç¤ºçš„yä½ç½®ï¼ŒæŒ‰é’®é«˜åº¦ï¼ŒæŒ‰é’®å®½åº¦ï¼ŒæŒ‰é’®ä¸Šæ˜¾ç¤ºçš„æ–‡å­—ï¼ŒæŒ‰é’®çš„é»˜è®¤é€æ˜åº¦128ï¼‰
 Button::Button(float window_x, float window_y, float width, float height, const std::string& text, sf::Uint8 alpha)
     : isHovered(false)
 {
@@ -14,9 +14,9 @@ Button::Button(float window_x, float window_y, float width, float height, const 
     shape.setSize(sf::Vector2f(width, height));
     shape.setFillColor(sf::Color(128, 128, 128, alpha));
 
-    if (!font.loadFromFile("ÉãÍ¼Ä¦µÇĞ¡·½Ìå(Ãâ·ÑÉÌÓÃ).ttf"))
+    if (!font.loadFromFile("æ‘„å›¾æ‘©ç™»å°æ–¹ä½“(å…è´¹å•†ç”¨).ttf"))
     {
-        cout << "³ÌĞò¼ÓÔØÄ¬ÈÏ×ÖÌåÊ§°Ü£¬Çë¼ì²é×ÖÌåÊÇ·ñ´æÔÚ£¡£¡£¡" << endl;
+        cout << "ç¨‹åºåŠ è½½é»˜è®¤å­—ä½“å¤±è´¥ï¼Œè¯·æ£€æŸ¥å­—ä½“æ˜¯å¦å­˜åœ¨ï¼ï¼ï¼" << endl;
     }
 
     label.setFont(font);
@@ -24,11 +24,11 @@ Button::Button(float window_x, float window_y, float width, float height, const 
     label.setCharacterSize(characterSize);
     label.setFillColor(sf::Color::White);
 
-    // ÉèÖÃÎÄ±¾µÄÔ­µãÎ»ÖÃÎªÆä¿í¶ÈºÍ¸ß¶ÈµÄÒ»°ë5
+    // è®¾ç½®æ–‡æœ¬çš„åŸç‚¹ä½ç½®ä¸ºå…¶å®½åº¦å’Œé«˜åº¦çš„ä¸€åŠ5
     sf::FloatRect labelBounds = label.getLocalBounds();
     label.setOrigin(labelBounds.left + labelBounds.width / 2, labelBounds.top + labelBounds.height / 2);
 
-    // ½«ÎÄ±¾¾ÓÖĞ¶ÔÆë
+    // å°†æ–‡æœ¬å±…ä¸­å¯¹é½
     float centerX = window_x + width / 2;
     float centerY = window_y + height / 2;
     label.setPosition(centerX, centerY);
@@ -48,14 +48,14 @@ void Button::DrawButton(sf::RenderWindow& window)
         characterSize = 80;
     }
 
-    // ÉèÖÃ°´Å¥ÎÄ±¾µÄ×ÖÌå´óĞ¡
+    // è®¾ç½®æŒ‰é’®æ–‡æœ¬çš„å­—ä½“å¤§å°
     label.setCharacterSize(characterSize);
 
-    // ÉèÖÃÎÄ±¾µÄÔ­µãÎ»ÖÃÎªÆä¿í¶ÈºÍ¸ß¶ÈµÄÒ»°ë
+    // è®¾ç½®æ–‡æœ¬çš„åŸç‚¹ä½ç½®ä¸ºå…¶å®½åº¦å’Œé«˜åº¦çš„ä¸€åŠ
     sf::FloatRect labelBounds = label.getLocalBounds();
     label.setOrigin(labelBounds.left + labelBounds.width / 2, labelBounds.top + labelBounds.height / 2);
 
-    // ½«ÎÄ±¾¾ÓÖĞ¶ÔÆë
+    // å°†æ–‡æœ¬å±…ä¸­å¯¹é½
     float centerX = shape.getPosition().x + shape.getSize().x / 2;
     float centerY = shape.getPosition().y + shape.getSize().y / 2;
     label.setPosition(centerX, centerY);
