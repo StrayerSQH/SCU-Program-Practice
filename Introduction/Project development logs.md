@@ -29,11 +29,10 @@
 #### 2.4 编程实战期间的游戏架构基本完成（2024年7月16日）
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好久都没有更新了，因为中途有一些不可抗因素暂缓了编程实战进度。截止目前，编程实战期间项目整体目标基本实现，实现了多种多样的互动形式和页面展示方式。但是我们同样也意识到了似乎在C++的架构下SFML库好像无法与easyx库互动起来（好像是？至少给了我们很大困惑最终选择放弃使用easyx)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话不多少，给大家看下大致的效果吧😄<br>
+### 3.效果展示
 ![部分成果展示1（2024年7月17日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/Introduction/%E9%83%A8%E5%88%86%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA1%EF%BC%882024%E5%B9%B47%E6%9C%8817%E6%97%A5%EF%BC%89.png)<br>
 
 ![部分成果展示2（2024年7月17日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/Introduction/%E9%83%A8%E5%88%86%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA2%EF%BC%882024%E5%B9%B47%E6%9C%8817%E6%97%A5%EF%BC%89.png)<br>
-### 3.效果展示
-
 ### 4.声明  Statement 😠
 本项目仅代表参与者个人的能力和水平，不代表与之相关的任何其他方面或实体<br>
 This project represents solely the individual skills and abilities of the participants, and does not represent any other potentially related aspects or entities<br>
@@ -76,11 +75,10 @@ We believe that we will be able to solve these problems in the next few days and
 #### 2.4 Game Architecture Almost Completed during Programming Challenge (July 16, 2024)
 It's been a while since the last update because there were some uncontrollable factors that delayed the progress of the programming challenge. As of now, the overall goal of the project during the programming challenge has been largely achieved, with various interactive forms and page display methods implemented. However, we have also realized that it seems that the SFML library cannot interact with the easyx library under the C++ architecture (or so it seems? It has at least caused us great confusion, and we ultimately chose to abandon the use of easyx).<br>
 Without further ado, let me show you a general overview of the results 😄<br>
+### 3.Presentation of Results
 ![部分成果展示1（2024年7月17日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/Introduction/%E9%83%A8%E5%88%86%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA1%EF%BC%882024%E5%B9%B47%E6%9C%8817%E6%97%A5%EF%BC%89.png)<br>
 
 ![部分成果展示2（2024年7月17日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/Introduction/%E9%83%A8%E5%88%86%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA2%EF%BC%882024%E5%B9%B47%E6%9C%8817%E6%97%A5%EF%BC%89.png)<br>
-### 3.Presentation of Results
-
 ### 4.声明  Statement 😠
 本项目仅代表参与者个人的能力和水平，不代表与之相关的任何其他方面或实体<br>
 This project represents solely the individual skills and abilities of the participants, and does not represent any other potentially related aspects or entities<br>
