@@ -15,7 +15,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SFML库提供了丰富的绘图功能，使我们能够在窗口中绘制各种图形元素。通过使用SFML的绘图接口，我们成功绘制了背景图像、按钮和其他用户界面元素，从而创建出具有视觉吸引力的应用程序界面。<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通过以上功能的实现，我们的项目能够提供了一个交互性强、视觉效果出色且较为简单的图形界面。给即将进入大学学习计算机相关领域学科且需要进行编程实战的朋友们提供了一些思路！！！😄<br>
 ### 2.效果展示
+![部分成果展示1（2024年7月17日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/Introduction/%E9%83%A8%E5%88%86%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA1%EF%BC%882024%E5%B9%B47%E6%9C%8817%E6%97%A5%EF%BC%89.png)<br>
 
+![部分成果展示2（2024年7月17日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/Introduction/%E9%83%A8%E5%88%86%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA2%EF%BC%882024%E5%B9%B47%E6%9C%8817%E6%97%A5%EF%BC%89.png)<br>
 ### 3.声明  Statement 😠
 本项目仅代表参与者个人的能力和水平，不代表与之相关的任何其他方面或实体<br>
 This project represents solely the individual skills and abilities of the participants, and does not represent any other potentially related aspects or entities<br>
@@ -43,7 +45,9 @@ SFML provides rich drawing capabilities, allowing us to draw various graphic ele
 
 Through the implementation of these features, our project is able to provide an interactive, visually appealing, and relatively simple graphical interface. It provides some ideas for friends who are about to study computer-related subjects and need to engage in programming practice! 😄
 ### 2.Presentation of Results
+![部分成果展示1（2024年7月17日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/Introduction/%E9%83%A8%E5%88%86%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA1%EF%BC%882024%E5%B9%B47%E6%9C%8817%E6%97%A5%EF%BC%89.png)<br>
 
+![部分成果展示2（2024年7月17日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/Introduction/%E9%83%A8%E5%88%86%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA2%EF%BC%882024%E5%B9%B47%E6%9C%8817%E6%97%A5%EF%BC%89.png)<br>
 ### 3.声明  Statement 😠
 本项目仅代表参与者个人的能力和水平，不代表与之相关的任何其他方面或实体<br>
 This project represents solely the individual skills and abilities of the participants, and does not represent any other potentially related aspects or entities<br>
