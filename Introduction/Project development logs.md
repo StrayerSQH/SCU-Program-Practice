@@ -29,7 +29,7 @@
 #### 2.4 编程实战期间的游戏架构基本完成（2024年7月16日）
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好久都没有更新了，因为中途有一些不可抗因素暂缓了编程实战进度。截止目前，编程实战期间项目整体目标基本实现，实现了多种多样的互动形式和页面展示方式。但是我们同样也意识到了似乎在C++的架构下SFML库好像无法与easyx库互动起来（好像是？至少给了我们很大困惑最终选择放弃使用easyx)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话不多少，给大家看下大致的效果吧😄<br>
-![部分成果展示1（2024年7月17日）效果图]()<br>
+![部分成果展示1（2024年7月17日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/Introduction/%E9%83%A8%E5%88%86%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA1%EF%BC%882024%E5%B9%B47%E6%9C%8817%E6%97%A5%EF%BC%89.png)<br>
 ### 3.效果展示
 
 ### 4.声明  Statement 😠
