@@ -31,7 +31,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话不多少，给大家看下大致的效果吧😄<br>
 ![部分成果展示1（2024年7月17日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/Introduction/%E9%83%A8%E5%88%86%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA1%EF%BC%882024%E5%B9%B47%E6%9C%8817%E6%97%A5%EF%BC%89.png)<br>
 
-![部分成果展示2（2024年7月17日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/Introduction/%E9%83%A8%E5%88%86%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA1%EF%BC%882024%E5%B9%B47%E6%9C%8817%E6%97%A5%EF%BC%89.png)<br>
+![部分成果展示2（2024年7月17日）效果图](https://github.com/StrayerSQH/SCU-Program-Practice/blob/main/Introduction/%E9%83%A8%E5%88%86%E6%88%90%E6%9E%9C%E5%B1%95%E7%A4%BA2%EF%BC%882024%E5%B9%B47%E6%9C%8817%E6%97%A5%EF%BC%89.png))<br>
 ### 3.效果展示
 
 ### 4.声明  Statement 😠
